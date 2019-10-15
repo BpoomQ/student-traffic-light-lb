@@ -5,7 +5,7 @@
     "url": "",
     "database": "student-traffic-light-db",
     "password": "",
-    "name": "mongoDS",
+    "name": "db",
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
