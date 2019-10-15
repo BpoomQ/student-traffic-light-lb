@@ -1,6 +1,13 @@
 {
   "db": {
-    "name": "db",
-    "connector": "memory"
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "student-traffic-light-db",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }

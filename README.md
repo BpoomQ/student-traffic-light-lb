@@ -6,7 +6,7 @@ API REST JSON for management university degrees.
 
 - NodeJS (min version 10.16.2)
 - MongoDB (min version 4.2.0).
-- Mongo database named `student-traffic-light`
+- Mongo database named `student-traffic-light-db`
 - Loopback API `npm install -g loopback-cli`
 
 ## install
