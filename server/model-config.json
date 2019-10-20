@@ -38,5 +38,9 @@
   "Period": {
     "dataSource": "db",
     "public": true
+  },
+  "Career": {
+    "dataSource": "db",
+    "public": true
   }
 }
