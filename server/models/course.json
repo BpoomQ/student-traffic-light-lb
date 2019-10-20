@@ -1,0 +1,37 @@
+{
+  "name": "Course",
+  "plural": "Courses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "credits": {
+      "type": "number",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "prerequistes": {
+      "type": [
+        "object"
+      ]
+    },
+    "periods": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
