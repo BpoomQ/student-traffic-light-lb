@@ -22,6 +22,11 @@
     "password": {
       "type": "string",
       "required": true
+    },
+    "careers":{
+      "type": [
+        "object"
+      ]
     }
   },
   "validations": [],
