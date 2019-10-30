@@ -15,6 +15,14 @@
       "type": "string",
       "required": true
     },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "semester": {
+      "type": "number",
+      "default": 1
+    },
     "email": {
       "type": "string",
       "required": true
@@ -23,10 +31,61 @@
       "type": "string",
       "required": true
     },
-    "careers":{
+    "careers": {
       "type": [
-        "object"
-      ]
+        {
+          "required": true,
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "currentAverage": {
+            "type": "number",
+            "default": 0
+          },
+          "lines": [
+            {
+              "required": true,
+              "name": {
+                "type": "string",
+                "required": true
+              },
+              "color": {
+                "type": "string",
+                "default": "#0000"
+              },
+              "courses": [
+                {
+                  "name": {
+                    "type": "string",
+                    "required": true
+                  },
+                  "pregress": {
+                    "type": "number",
+                    "default": 0
+                  },
+                  "credits": {
+                    "type": "number",
+                    "required": true
+                  },
+                  "semester": {
+                    "type": "number",
+                    "required": true
+                  },
+                  "score": {
+                    "type": "object",
+                    "default": {
+                      "firstPeriod": 0,
+                      "secondPeriod": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "required": true
     }
   },
   "validations": [],

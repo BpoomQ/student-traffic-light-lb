@@ -1,15 +1,18 @@
 {
-  "name": "Period",
-  "plural": "Periods",
+  "name": "Line",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "score": {
-      "type": "number",
+    "name": {
+      "type": "string",
       "required": true
+    },
+    "color": {
+      "type": "string",
+      "default": "#0000"
     }
   },
   "validations": [],

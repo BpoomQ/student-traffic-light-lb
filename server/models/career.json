@@ -1,6 +1,5 @@
 {
   "name": "Career",
-  "plural": "Careers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,20 +10,9 @@
       "type": "string",
       "required": true
     },
-    "semester": {
-      "type": "number",
-      "required": true,
-      "default": 1
-    },
     "currentAverage": {
       "type": "number",
       "default": 0
-    },
-    "courses": {
-      "type": [
-        "object"
-      ],
-      "required": true
     }
   },
   "validations": [],

@@ -32,20 +32,20 @@
     "dataSource": "db",
     "public": false
   },
-  "Course": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Period": {
+  "Student": {
     "dataSource": "db",
     "public": true
   },
   "Career": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
-  "Student": {
+  "Line": {
     "dataSource": "db",
-    "public": true
+    "public": false
+  },
+  "Course": {
+    "dataSource": "db",
+    "public": false
   }
 }

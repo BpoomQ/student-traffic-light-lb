@@ -1,5 +1,3 @@
 'use strict';
 
-module.exports = function(Career) {
-
-};
+module.exports = Career => {};

@@ -1,15 +1,11 @@
 {
   "name": "Course",
-  "plural": "Courses",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "firstTime": {
-      "type": "boolean"
-    },
     "name": {
       "type": "string",
       "required": true
@@ -18,19 +14,17 @@
       "type": "number",
       "required": true
     },
-    "color": {
-      "type": "string",
+    "semester": {
+      "type": "number",
       "required": true
     },
-    "prerequistes": {
-      "type": [
-        "object"
-      ]
-    },
-    "periods": {
-      "type": [
-        "object"
-      ]
+    "score": {
+      "type": "object",
+      "required": false,
+      "default": {
+        "firstPeriod": 0,
+        "secondPeriod": 0
+      }
     }
   },
   "validations": [],
