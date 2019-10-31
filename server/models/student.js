@@ -50,7 +50,7 @@ module.exports = Student => {
       }
     ],
     returns: {
-      arg: 'Course',
+      arg: 'course',
       type: 'object',
       description: `Returns course`
     }
