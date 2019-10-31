@@ -31,60 +31,92 @@
       "type": "string",
       "required": true
     },
-    "careers": {
-      "type": [
-        {
+    "career": {
+      "type": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "currentAverage": {
+          "type": "number",
+          "default": 0
+        },
+        "lines": {
           "required": true,
-          "name": {
-            "type": "string",
-            "required": true
-          },
-          "currentAverage": {
-            "type": "number",
-            "default": 0
-          },
-          "lines": [
+          "type": [
             {
-              "required": true,
-              "name": {
-                "type": "string",
-                "required": true
-              },
-              "color": {
-                "type": "string",
-                "default": "#0000"
-              },
-              "courses": [
-                {
-                  "name": {
-                    "type": "string",
-                    "required": true
-                  },
-                  "pregress": {
-                    "type": "number",
-                    "default": 0
-                  },
-                  "credits": {
-                    "type": "number",
-                    "required": true
-                  },
-                  "semester": {
-                    "type": "number",
-                    "required": true
-                  },
-                  "score": {
-                    "type": "object",
-                    "default": {
-                      "firstPeriod": 0,
-                      "secondPeriod": 0
+              "type": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "color": {
+                  "type": "string",
+                  "default": "bg-white"
+                },
+                "courses": {
+                  "type": [
+                    {
+                      "type": {
+                        "code": {
+                          "type": "string",
+                          "default": "sin codigo"
+                        },
+                        "name": {
+                          "type": "string",
+                          "required": true
+                        },
+                        "userHours": {
+                          "type": "number",
+                          "default": 0
+                        },
+                        "recommendedHours": {
+                          "type": "number",
+                          "default": 0,
+                          "required": true
+                        },
+                        "credits": {
+                          "type": "number",
+                          "required": true
+                        },
+                        "semester": {
+                          "type": "number",
+                          "required": true
+                        },
+                        "score": {
+                          "type": [
+                            {
+                              "firstPeriod": {
+                                "type": "number",
+                                "default": 0
+                              },
+                              "secondPeriod": {
+                                "type": "number",
+                                "default": 0
+                              },
+                              "status": {
+                                "type": "string",
+                                "default": "Por ver"
+                              }
+                            }
+                          ],
+                          "default": [
+                            {
+                              "firstPeriod": 0,
+                              "secondPeriod": 0,
+                              "status": "Por ver"
+                            }
+                          ]
+                        }
+                      }
                     }
-                  }
+                  ]
                 }
-              ]
+              }
             }
           ]
         }
-      ],
+      },
       "required": true
     }
   },
