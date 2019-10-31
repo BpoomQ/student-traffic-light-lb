@@ -6,6 +6,7 @@
   "extends": [ "standard" ],
   "rules": {
     "indent": ["error", 2],
+    "parser": "babel-eslint",
     "semi": ["error", "always"],
     "no-var": "error",
     "func-names": "error",
