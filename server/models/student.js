@@ -1,6 +1,7 @@
 const { signIn } = require('../scripts/sign-in');
 const { findUsersCareer } = require('../scripts/users-career');
 const { courseDetail } = require('../scripts/course-detail');
+const { editCourseTime } = require('../scripts/edit-course-time');
 
 module.exports = Student => {
   Student.signIn = async (email, password, callback) =>
@@ -12,6 +13,10 @@ module.exports = Student => {
 
   Student.courseDetail = async (userId, courseName, callback) => {
     await courseDetail(userId, courseName, Student, callback);
+  };
+
+  Student.editCourseTime = async (userId, courseName, userHours, callback) => {
+    await editCourseTime(userId, courseName, userHours, Student, callback);
   };
 
   Student.remoteMethod('findUsersCareer', {
@@ -47,6 +52,36 @@ module.exports = Student => {
         type: 'string',
         required: true,
         description: `Course name`
+      }
+    ],
+    returns: {
+      arg: 'course',
+      type: 'object',
+      description: `Returns course`
+    }
+  });
+
+  Student.remoteMethod('editCourseTime', {
+    description: `Update user's course time`,
+    http: { path: '/:id/career/:courseName', verb: 'put' },
+    accepts: [
+      {
+        arg: 'id',
+        type: 'string',
+        required: true,
+        description: `Student's identifier`
+      },
+      {
+        arg: 'courseName',
+        type: 'string',
+        required: true,
+        description: `Course name`
+      },
+      {
+        arg: 'userHours',
+        type: 'number',
+        required: true,
+        description: `Course time in hours`
       }
     ],
     returns: {
