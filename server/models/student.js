@@ -73,6 +73,10 @@ module.exports = Student => {
         description: `Student's email`
       }
     ],
-    returns: { arg: 'user', type: 'object', description: `Registered student` }
+    returns: {
+      arg: 'student',
+      type: 'object',
+      description: `Registered student`
+    }
   });
 };
