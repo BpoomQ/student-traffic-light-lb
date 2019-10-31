@@ -1,5 +1,6 @@
 const { signIn } = require('../scripts/sign-in');
 const { findUsersCareer } = require('../scripts/users-career');
+const { courseDetail } = require('../scripts/course-detail');
 
 module.exports = Student => {
   Student.signIn = async (email, password, callback) =>
@@ -7,6 +8,10 @@ module.exports = Student => {
 
   Student.findUsersCareer = async (userId, callback) => {
     await findUsersCareer(userId, Student, callback);
+  };
+
+  Student.courseDetail = async (userId, courseName, callback) => {
+    await courseDetail(userId, courseName, Student, callback);
   };
 
   Student.remoteMethod('findUsersCareer', {
@@ -24,6 +29,30 @@ module.exports = Student => {
       arg: 'career',
       type: 'object',
       description: `Returns user's career`
+    }
+  });
+
+  Student.remoteMethod('courseDetail', {
+    description: `Return the course's detail`,
+    http: { path: '/:id/career/:courseName', verb: 'get' },
+    accepts: [
+      {
+        arg: 'id',
+        type: 'string',
+        required: true,
+        description: `Student's identifier`
+      },
+      {
+        arg: 'courseName',
+        type: 'string',
+        required: true,
+        description: `Course name`
+      }
+    ],
+    returns: {
+      arg: 'Course',
+      type: 'object',
+      description: `Returns course`
     }
   });
 
