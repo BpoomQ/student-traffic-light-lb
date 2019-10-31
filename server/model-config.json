@@ -32,18 +32,6 @@
     "dataSource": "db",
     "public": false
   },
-  "Course": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Period": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Career": {
-    "dataSource": "db",
-    "public": true
-  },
   "Student": {
     "dataSource": "db",
     "public": true
