@@ -86,25 +86,24 @@
                         "score": {
                           "type": [
                             {
-                              "firstPeriod": {
-                                "type": "number",
-                                "default": 0
-                              },
-                              "secondPeriod": {
-                                "type": "number",
-                                "default": 0
-                              },
-                              "status": {
-                                "type": "string",
-                                "default": "Por ver"
+                              "type": {
+                                "firstPeriod": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "secondPeriod": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "finalScore": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "status": {
+                                  "type": "string",
+                                  "default": "Por ver"
+                                }
                               }
-                            }
-                          ],
-                          "default": [
-                            {
-                              "firstPeriod": 0,
-                              "secondPeriod": 0,
-                              "status": "Por ver"
                             }
                           ]
                         }
