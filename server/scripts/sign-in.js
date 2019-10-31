@@ -6,19 +6,27 @@
  * @param {Function} callback Callback (error, student)
  */
 const signIn = async (email, password, studentModel, callback) => {
-  const student = await studentModel.findOne({
+  const user = await studentModel.findOne({
     where: {
       email,
       password
     }
   });
-  if (!student) {
+  if (!user) {
     const err = Error('No se encontró al usuario');
     err.name = 'Not Found';
     err.stack = undefined;
     err.statusCode = 404;
     callback(err);
   }
+  const student = {
+    id: user.id,
+    displayName: `${user.firstName} ${user.lastName}`,
+    code: user.code,
+    semester: user.semester,
+    email: user.semester,
+    career: user.career.name
+  };
   callback(null, student);
 };
 
