@@ -35,17 +35,5 @@
   "Student": {
     "dataSource": "db",
     "public": true
-  },
-  "Career": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Line": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Course": {
-    "dataSource": "db",
-    "public": false
   }
 }
