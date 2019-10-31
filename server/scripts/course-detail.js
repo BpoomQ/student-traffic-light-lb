@@ -15,7 +15,6 @@ const courseDetail = async (userId, courseName, studentModel, callback) => {
     callback(err);
   }
   const lines = user.career.lines;
-  console.log({ lines });
   let course;
   for (const line of lines) {
     const flaj = line.courses.find(course => course.name == courseName);
