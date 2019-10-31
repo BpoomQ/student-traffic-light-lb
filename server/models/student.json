@@ -1,0 +1,126 @@
+{
+  "name": "Student",
+  "plural": "Students",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "semester": {
+      "type": "number",
+      "default": 1
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "career": {
+      "type": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "currentAverage": {
+          "type": "number",
+          "default": 0
+        },
+        "lines": {
+          "required": true,
+          "type": [
+            {
+              "type": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "color": {
+                  "type": "string",
+                  "default": "bg-white"
+                },
+                "courses": {
+                  "type": [
+                    {
+                      "type": {
+                        "code": {
+                          "type": "string",
+                          "default": "sin codigo"
+                        },
+                        "name": {
+                          "type": "string",
+                          "required": true
+                        },
+                        "userHours": {
+                          "type": "number",
+                          "default": 0
+                        },
+                        "recommendedHours": {
+                          "type": "number",
+                          "default": 0,
+                          "required": true
+                        },
+                        "credits": {
+                          "type": "number",
+                          "required": true
+                        },
+                        "semester": {
+                          "type": "number",
+                          "required": true
+                        },
+                        "score": {
+                          "type": [
+                            {
+                              "type": {
+                                "firstPeriod": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "secondPeriod": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "finalScore": {
+                                  "type": "number",
+                                  "default": 0
+                                },
+                                "status": {
+                                  "type": "string",
+                                  "default": "Por ver"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

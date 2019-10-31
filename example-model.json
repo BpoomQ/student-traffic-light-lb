@@ -1,0 +1,864 @@
+{
+  "firstName": "Test",
+  "lastName": "Test",
+  "code": "123456",
+  "semester": 2,
+  "email": "test@gmail.com",
+  "password": "123",
+  "career": {
+    "name": "Ingenieria de sistemas",
+    "currentAverage": 0,
+    "lines": [
+      {
+        "name": "Matematicas",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Fundamentos de matematicas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Calculo diferencial",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Calculo Integral",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Calculo Multivariado",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 4,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ecuaciones Diferenciales",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Investigacion de Operaciones",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Probabilidad y Estadistica",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Logica",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Logica Matematica",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Alegra Lineal",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Matematicas Discretas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Logica Digital y Microprocesadores",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fisica",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Cinematica",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Electromagnetismo",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 4,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Sistemas Operacionales",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Programacion 1",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Introduccion a la programacion",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Tecnicas de programacion 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Tecnicas de programacion 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Diseño de interfaces de usuario",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 4,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Programacion 2",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Introduccion a la ingeneria",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Estructuras de programación",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Culturas",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Habilidades comunicativas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Cultura 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Cultura 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Cultura 3",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 3,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ingles",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Ingles basico",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 1,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingles intermedio medio",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 2,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingles intermedio alto",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 3,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingles avanzado",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 4,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingles Proficiencia",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bases de datos",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Bases de datos 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 4,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Bases de datos 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Inteligencia de negocios",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Construccion de aplicaciones",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Nuevas tecnologias",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Construccion de aplicaciones multiplataformas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Diseño de aplicaciones interactivas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Diseño de aplicaciones interactivas multimedia",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Practicas profesionales",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 9,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gerencia de contruccion de software",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Analisis y diseño de sistemas",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 5,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingeneria de software 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Ingeneria de software 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Arquitectura de software",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Redes de comunicacion",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Redes de comunicacion 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 6,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Redes de comunicacion 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Seguridad Informatica",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Administracion de proyectos",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Gestion de soluciones TIC",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Administracion de procesos de negocios",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Gerencia de proyectos TIC",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 9,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Investigacion",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Electiva de investigacion",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Proyecto de grado",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 9,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electivas",
+        "color": "bg-white",
+        "courses": [
+          {
+            "code": "sin codigo",
+            "name": "Electiva 1",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 7,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          },
+          {
+            "code": "sin codigo",
+            "name": "Electiva 2",
+            "userHours": 0,
+            "recommendedHours": 0,
+            "credits": 4,
+            "semester": 8,
+            "score": [
+              {
+                "firstPeriod": 0,
+                "secondPeriod": 0,
+                "status": "Por ver"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "id": "5dbb11de0639f52958f96675"
+}
