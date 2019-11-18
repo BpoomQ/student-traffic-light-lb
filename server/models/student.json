@@ -66,6 +66,10 @@
                           "type": "string",
                           "required": true
                         },
+                        "prerequisites": {
+                          "type": ["String"],
+                          "default": []
+                        },
                         "userHours": {
                           "type": "number",
                           "default": 0
