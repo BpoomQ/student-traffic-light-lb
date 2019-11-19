@@ -22,7 +22,8 @@ const findUsersCareer = async (userId, studentModel, callback) => {
       color: line.color,
       courses: line.courses.map(course => ({
         name: course.name,
-        semester: course.semester
+        semester: course.semester,
+        status: !!course.score.find(score => score.status == 'Vista')
       }))
     }))
   };
